@@ -1,6 +1,6 @@
 # install deps
 
-pacman -Sy git vim nvim wget gzip fzf tree firefox less
+pacman -Sy git vim nvim wget gzip fzf tree firefox less btop
 
 pacman -Sy wofi foot dolphin waybar hyperland xorg-xwayland hyprpaper
 
