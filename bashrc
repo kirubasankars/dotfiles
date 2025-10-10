@@ -7,10 +7,15 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-#alias vim='nvim'
+
+alias vim='nvim'
 alias l="ls"
 alias ll="ls -l"
 alias t="tree"
+alias la="ls -la"
+alias gs="git status"
+alias gf="git diff"
+alias gl="git log"
 
 alias maand="/home/kirubasankars/go/src/maand-go/maand"
 
