@@ -25,9 +25,7 @@
         "custom/sep",
         "disk",
         "custom/sep",
-        "clock",
-        "custom/sep",
-        "tray"
+        "clock"
     ],
 
     // Modules configuration
@@ -37,7 +35,7 @@
         "warp-on-scroll": false,
         "format": "{name}",
         "persistent-workspaces": {
-            "*" : 9
+            "*" : 5
         }
     },
     "hyprland/window" : {
@@ -53,7 +51,8 @@
         // }
     },
     "clock": {
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+	"tooltip": false
     },
     "cpu": {
         "format": "CPU: {usage}%",

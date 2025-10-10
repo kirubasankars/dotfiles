@@ -7,15 +7,13 @@
 
 window {
     margin: 0px;
-    border: 2px solid #414868;
-    border-radius: 5px;
+    border: none;
     background-color: #24283b;
-    font-family: monospace;
     font-size: 12px;
 }
 
 #input {
-    margin: 5px;
+    margin: 4px;
     border: 1px solid #24283b;
     color: #c0caf5;
     background-color: #24283b;
@@ -26,13 +24,13 @@ window {
 }
 
 #inner-box {
-    margin: 5px;
-    border: none;
+    margin: 4px;
+    border: 1px;
     background-color: #24283b;
 }
 
 #outer-box {
-    margin: 5px;
+    margin: 4px;
     border: none;
     background-color: #24283b;
 }
@@ -43,7 +41,7 @@ window {
 }
 
 #text {
-    margin: 5px;
+    margin: 4px;
     border: none;
     color: #c0caf5;
 } 
