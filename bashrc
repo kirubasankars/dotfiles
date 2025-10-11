@@ -13,12 +13,11 @@ alias l="ls"
 alias ll="ls -l"
 alias t="tree"
 alias la="ls -la"
-alias gs="git status"
-alias gf="git diff"
-alias gl="git log"
+alias s="git status"
+alias d="git diff"
+alias l="git log"
+alias t="btop"
 
-alias maand="/home/kirubasankars/go/src/maand-go/maand"
-
-PS1='[\u@\h \W]\$ '
+PS1=' \W \$ '
 
 eval "$(fzf --bash)"
