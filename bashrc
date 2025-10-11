@@ -8,16 +8,31 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+alias copy="wl-copy"
+alias paste="wl-paste"
+alias calc="python3"
 alias vim='nvim'
+alias a="alias"
+alias n="nvim"
 alias l="ls"
+alias c="clear"
+alias e="exit"
 alias ll="ls -l"
 alias t="tree"
 alias la="ls -la"
+alias top="btop"
+
 alias s="git status"
 alias d="git diff"
 alias l="git log"
-alias t="btop"
+
+alias ff="fastfetch"
+alias ww="curl wttr.in/edison"
 
 PS1=' \W \$ '
-
 eval "$(fzf --bash)"
+
+function tt() {
+  TZ="Asia/Kolkata" date
+  date
+}
