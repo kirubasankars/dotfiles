@@ -6,8 +6,7 @@
     "modules-left": [
         "hyprland/workspaces",
         "custom/sep",
-        "hyprland/window",
-        "custom/sep"
+        "hyprland/window"
     ],
     "modules-center": [
     ],

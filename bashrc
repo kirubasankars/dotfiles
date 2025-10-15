@@ -22,9 +22,9 @@ alias t="tree"
 alias la="ls -la"
 alias top="btop"
 
-alias s="git status"
-alias d="git diff"
-alias l="git log"
+alias ss="git status"
+alias dd="git diff"
+alias gg="git log"
 
 alias ff="fastfetch"
 alias ww="curl wttr.in/edison"
