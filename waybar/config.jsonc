@@ -33,6 +33,7 @@
         "seperate-outputs": false
     },
    "clock": {
+        "format": "{:%I:%M %p}",
         "format-alt": "{:%Y-%m-%d}",
 	      "tooltip": false
     },
