@@ -19,6 +19,7 @@
 window#waybar {
     background-color: @bg;
     color: @fg;
+    background: transparent;
 }
 
 #workspaces button {
@@ -92,10 +93,6 @@ button:hover {
 #network {
     color: @blu;
     border-bottom: 4px solid @blu;
-}
-
-#network.disconnected {
-    background-color: @red;
 }
 
 #tray {

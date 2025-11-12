@@ -6,6 +6,7 @@ cp -rv walls ~/.config/
 cp -v bashrc ~/.bashrc
 cp -rv btop ~/.config/
 cp -rv git ~/.config/
+cp -rv mp3-audio ~/.config/
 
 sed -i "s/\$USER/$USER/g" ~/.config/wofi/config
 

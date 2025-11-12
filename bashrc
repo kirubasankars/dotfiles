@@ -28,11 +28,12 @@ alias gg="git log"
 
 alias ff="fastfetch"
 alias ww="curl wttr.in/edison"
+alias batt="cat /sys/class/power_supply/BAT0/capacity"
 
-PS1=' \W \$ '
+PS1='\W \$ '
 eval "$(fzf --bash)"
 
 function tt() {
-  TZ="Asia/Kolkata" date
-  date
+  echo "IST :" $(TZ="Asia/Kolkata" date)
+  echo "EST :" $(date)
 }
